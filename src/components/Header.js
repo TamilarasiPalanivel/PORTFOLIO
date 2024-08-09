@@ -17,9 +17,9 @@ export default function Header()
             
         </ul>
         </nav>
-        {toggleMenu &&<nav className="block md:hidden mobile-nav">
+        {toggleMenu &&<nav className="block md:hidden">
 
-        <ul className="flex flex-col text-white">
+        <ul className="flex flex-col text-white mobile-nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Project</a></li>
