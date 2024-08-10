@@ -1,5 +1,5 @@
 import AboutImg from '../assets/cloud.png';
-/**export default function About(){
+export default function About(){
     return <section className='flex'>
         <div className='w-1/2'>
             <img src={AboutImg} />
@@ -9,10 +9,10 @@ import AboutImg from '../assets/cloud.png';
             <p>Some info</p>
             </div>
     </section>
-}**/
+}
 
 
-export default function About () {
+/**export default function About () {
     const config  = {
         line1: 'Hi, My name is Tamilarasi. I am a Full stack web developer. I built beautiful Websites with React.js , Tailwind CSS + Bootstrap',
         line2: 'I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Tailwind CSS and many more.',
@@ -32,4 +32,4 @@ export default function About () {
             </div>
         </div>
     </section>
-}
+}**/
