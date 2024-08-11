@@ -1,6 +1,6 @@
 import AboutImg from '../assets/cloud.png';
 export default function About(){
-    return <section className='flex'>
+    return <section className='flex bg-primary px-5'>
         <div className='w-1/2'>
             <img src={AboutImg} />
         </div>
