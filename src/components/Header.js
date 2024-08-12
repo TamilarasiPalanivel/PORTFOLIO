@@ -1,5 +1,4 @@
-import { Bars3Icon } from '@heroicons/react/24/solid'
-import { useState } from 'react'
+
 export default function Header()
 {
    const[toggleMenu, setToggleMenu] = useState(false);
@@ -9,7 +8,7 @@ export default function Header()
         <a className="font-bold text-black" href="#">Tamilarasi Palanivel</a>
         <nav className="hidden md:block">
 
-        <ul className="flex text-white">
+        <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Project</a></li>
